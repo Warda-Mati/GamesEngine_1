@@ -8,3 +8,4 @@ I will try to use terrain generation to give the planets a certain shape, and ob
 I took some inspiration from these following images
 
 ![image](https://s1.ibtimes.com/sites/www.ibtimes.com/files/styles/lg/public/2017/05/06/edusolarsystemlarge0.png)
+![image2](https://www.nasa.gov/sites/default/files/thumbnails/image/gateway_orion_approaching.jpg)
