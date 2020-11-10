@@ -28,10 +28,15 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraMovement.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/SpaceShip.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ShipMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CameraMovement.cs" />
       </list>
     </option>
   </component>
@@ -75,7 +80,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605025453965</updated>
-      <workItem from="1605025457419" duration="913000" />
+      <workItem from="1605025457419" duration="2700000" />
     </task>
     <servers />
   </component>

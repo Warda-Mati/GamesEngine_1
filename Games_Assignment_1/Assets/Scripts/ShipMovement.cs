@@ -20,7 +20,7 @@ public class ShipMovement : MonoBehaviour
         float horiz = Input.GetAxis("Horizontal");
         
         transform.Translate(0,0,speed*Time.deltaTime * vert);
-        transform.Rotate(rotationSpeed*Time.deltaTime * horiz, 0, 0);
+        transform.Rotate(0, rotationSpeed*Time.deltaTime * horiz, 0);
         
         
 
