@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SpaceShip : MonoBehaviour
+public class ShipMovement : MonoBehaviour
 {
     public int speed;
 
