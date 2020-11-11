@@ -1,11 +1,12 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class ShipMovement : MonoBehaviour
 {
     public int speed;
-
+    public GameObject player;
     public int rotationSpeed;
     // Start is called before the first frame update
     void Start()
@@ -21,8 +22,21 @@ public class ShipMovement : MonoBehaviour
         
         transform.Translate(0,0,speed*Time.deltaTime * vert);
         transform.Rotate(0, rotationSpeed*Time.deltaTime * horiz, 0);
+   
         
-        
+    }
 
+    public void OnTriggerStay(Collider other)
+    {
+        if (other.gameObject.CompareTag("planet"))
+        {
+            if (Input.GetKey(KeyCode.P))
+            {
+                player.SetActive(true);
+                this.gameObject.SetActive(false);
+                
+            }
+          
+        }
     }
 }
