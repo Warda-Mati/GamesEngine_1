@@ -32,9 +32,11 @@ public class ShipMovement : MonoBehaviour
         {
             if (Input.GetKey(KeyCode.P))
             {
+                player.transform.parent = null;
                 player.SetActive(true);
                 this.gameObject.SetActive(false);
                 
+
             }
           
         }

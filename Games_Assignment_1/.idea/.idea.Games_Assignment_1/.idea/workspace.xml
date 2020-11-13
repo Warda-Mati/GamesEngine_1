@@ -37,10 +37,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/SpaceShip.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CameraMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlanetWalk.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerGrav.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Planet.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CameraMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ShipMovement.cs" />
       </list>
     </option>
@@ -86,7 +86,8 @@
       <option name="presentableId" value="Default" />
       <updated>1605025453965</updated>
       <workItem from="1605025457419" duration="6760000" />
-      <workItem from="1605117264633" duration="631000" />
+      <workItem from="1605117264633" duration="1025000" />
+      <workItem from="1605271564127" duration="1591000" />
     </task>
     <servers />
   </component>
