@@ -29,19 +29,21 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlanetWalk.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerGrav.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Planet/MakePlanet.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/SpaceShip.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlanetWalk.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerGrav.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Planet.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CameraMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ShipMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Planet.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerGrav.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Planet/CreateMesh.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Planet/MakePlanet.cs" />
       </list>
     </option>
   </component>
@@ -87,7 +89,9 @@
       <updated>1605025453965</updated>
       <workItem from="1605025457419" duration="6760000" />
       <workItem from="1605117264633" duration="1025000" />
-      <workItem from="1605271564127" duration="1591000" />
+      <workItem from="1605271564127" duration="2320000" />
+      <workItem from="1605375738736" duration="1519000" />
+      <workItem from="1605443972119" duration="2041000" />
     </task>
     <servers />
   </component>

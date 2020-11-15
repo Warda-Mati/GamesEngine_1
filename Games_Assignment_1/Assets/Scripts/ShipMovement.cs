@@ -35,8 +35,6 @@ public class ShipMovement : MonoBehaviour
                 player.transform.parent = null;
                 player.SetActive(true);
                 this.gameObject.SetActive(false);
-                
-
             }
           
         }
