@@ -4,20 +4,22 @@ using UnityEngine;
 
 public class CreateMesh
 {
-    Mesh mesh;
+    public Mesh mesh;
 
-    int resolution;
+    public int resolution;
 
-    Vector3 up, sideV, perpendicularV;
+    public Vector3 up, sideV, perpendicularV;
 
-    public CreateMesh(Mesh mesh, int resolution, Vector3 up)
+    public PlanetShape shape;
+
+    public CreateMesh(Mesh mesh, int resolution, Vector3 up, PlanetShape shape)
     {
         this.mesh = mesh;
         this.resolution = resolution;
         this.up = up;
         sideV = new Vector3(up.y,up.z,up.x);
         perpendicularV = Vector3.Cross(up, sideV);
-        
+        this.shape = shape;
     }
     public void Create()
     {
@@ -33,7 +35,7 @@ public class CreateMesh
                 Vector2 percent = new Vector2(x,y) / (resolution - 1);
                 Vector3 cubePoint = up + (percent.x - .5f) * 2 * sideV + (percent.y - .5f) * 2 * perpendicularV;
                 Vector3 spherePoint = cubePoint.normalized;
-                vertices[i] = spherePoint;
+                vertices[i] = shape.CalculatePoint(spherePoint);
 
                 if (x != resolution - 1 && y != resolution - 1)
                 {

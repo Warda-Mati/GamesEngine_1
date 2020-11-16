@@ -29,9 +29,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraMovement.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerGrav.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Planet/MakePlanet.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlanetEditor.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -42,8 +40,16 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/ShipMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Planet.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerGrav.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Planet/NoiseFolder/Noise.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Planet/NoiseFolder/NoiseOptions.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Planet/NoiseFolder/NoiseFilter.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Planet/CreateMesh.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Planet/PlanetShape.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Planet/MakePlanet.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Planet/ShapeSettings.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlanetEditor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ShapeSettings.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MakePlanet.cs" />
       </list>
     </option>
   </component>
@@ -91,7 +97,9 @@
       <workItem from="1605117264633" duration="1025000" />
       <workItem from="1605271564127" duration="2320000" />
       <workItem from="1605375738736" duration="1519000" />
-      <workItem from="1605443972119" duration="2041000" />
+      <workItem from="1605443972119" duration="2187000" />
+      <workItem from="1605549263501" duration="3959000" />
+      <workItem from="1605553287145" duration="1755000" />
     </task>
     <servers />
   </component>
