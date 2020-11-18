@@ -5,12 +5,12 @@ using UnityEngine;
 public class NoiseFilter
 {
     public NoiseOptions options;
-    public Noise noise;
+    public Noise noise = new Noise();
 
     public NoiseFilter(NoiseOptions options)
     {
         this.options = options;
-        this.noise = new Noise();
+        
     }
 
     public float ShapeNoise(Vector3 planetPoint)

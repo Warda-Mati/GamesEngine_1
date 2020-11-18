@@ -5,11 +5,8 @@ using UnityEngine;
 public class CreateMesh
 {
     public Mesh mesh;
-
     public int resolution;
-
     public Vector3 up, sideV, perpendicularV;
-
     public PlanetShape shape;
 
     public CreateMesh(Mesh mesh, int resolution, Vector3 up, PlanetShape shape)

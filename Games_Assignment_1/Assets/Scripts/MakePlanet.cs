@@ -32,28 +32,36 @@ public class MakePlanet : MonoBehaviour
 
     public void CreatePlanet()
     {
+        /*int numberOfChild = transform.childCount;
+        for(int j = 0; j < numberOfChild; j++){
+            Debug.Log(transform.childCount);
+            DestroyImmediate(transform.GetChild(j).gameObject);
+        } */
+               
         shape = new PlanetShape(settings);
         Vector3[] AllDirections = {Vector3.up, Vector3.down, Vector3.left, Vector3.right, Vector3.forward, Vector3.back};
         for (int i = 0; i < 6; i++)
         {
             {
-                if (MeshFilters.Length != null)
-                {
+                if(MeshFilters[i] == null){
                     GameObject face =  new GameObject("Face");
                     face.transform.parent = this.transform;
                 
                     face.AddComponent<MeshRenderer>().sharedMaterial = new Material(Shader.Find("Standard"));
                     MeshFilters[i] = face.AddComponent<MeshFilter>();
                     MeshFilters[i].sharedMesh = new Mesh();
-                
-                    meshes[i] = new CreateMesh(MeshFilters[i].sharedMesh,resolution,AllDirections[i],shape);
-                    meshes[i].Create();
 
                 }
-           
+                
+                
+                meshes[i] = new CreateMesh(MeshFilters[i].sharedMesh,resolution,AllDirections[i],shape);
+                meshes[i].Create();
+
             }
-            
+           
         }
+            
+        
 
     }
     
