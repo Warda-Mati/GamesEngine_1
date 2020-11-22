@@ -15,6 +15,7 @@
         </e>
         <e p="Scripts" t="Include">
           <e p="AsteroidField.cs" t="Include" />
+          <e p="AsteroidRing.cs" t="Include" />
           <e p="CreateMesh.cs" t="Include" />
           <e p="MakePlanet.cs" t="Include" />
           <e p="Noise.cs" t="Include" />
