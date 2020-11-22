@@ -30,6 +30,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlanetEditor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/StarRings.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -50,6 +51,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/PlanetEditor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ShapeSettings.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MakePlanet.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlanetShape.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/StarRings.cs" />
       </list>
     </option>
   </component>
@@ -100,6 +103,8 @@
       <workItem from="1605443972119" duration="2187000" />
       <workItem from="1605549263501" duration="3959000" />
       <workItem from="1605553287145" duration="1755000" />
+      <workItem from="1606040669264" duration="667000" />
+      <workItem from="1606055922482" duration="5520000" />
     </task>
     <servers />
   </component>

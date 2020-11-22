@@ -6,6 +6,7 @@ public class PlanetShape
 {
     public NoiseFilter[] filter;
     public ShapeSettings settings;
+   
 
     public PlanetShape(ShapeSettings settings)
     {
@@ -40,6 +41,8 @@ public class PlanetShape
 
         return point * settings.radius * (1 + elevation);
     }
+
+   
 }
 
 
