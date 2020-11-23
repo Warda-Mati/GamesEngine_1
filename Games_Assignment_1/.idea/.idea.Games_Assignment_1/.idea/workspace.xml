@@ -31,6 +31,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlanetEditor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/StarRings.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AlienSpaceship.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AsteroidRing.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -55,6 +56,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/PlanetShape.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/StarRings.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AsteroidRing.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AlienSpaceship.cs" />
       </list>
     </option>
   </component>
@@ -106,7 +108,8 @@
       <workItem from="1605549263501" duration="3959000" />
       <workItem from="1605553287145" duration="1755000" />
       <workItem from="1606040669264" duration="667000" />
-      <workItem from="1606055922482" duration="6516000" />
+      <workItem from="1606055922482" duration="6669000" />
+      <workItem from="1606148581225" duration="1835000" />
     </task>
     <servers />
   </component>
@@ -129,5 +132,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="458" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606150080462">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="458" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1606150080462" />
   </component>
 </project>
