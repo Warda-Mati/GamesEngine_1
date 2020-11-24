@@ -30,11 +30,11 @@ public class AlienSpaceship : MonoBehaviour
            
         }
 
-        HingeJoint wheel = gameObject.AddComponent<HingeJoint>();
+        /*HingeJoint wheel = gameObject.AddComponent<HingeJoint>();
         wheel.connectedBody = transform.parent.GetComponent<Rigidbody>();
         wheel.axis = Vector3.up;
         wheel.anchor = Vector3.up;
-        wheel.autoConfigureConnectedAnchor = true;
+        wheel.autoConfigureConnectedAnchor = true;*/
 
     }
 
@@ -43,5 +43,6 @@ public class AlienSpaceship : MonoBehaviour
     {
        
         transform.parent.Translate(0,0,2*Time.deltaTime);
+        transform.Rotate(Vector3.up);
     }
 }
