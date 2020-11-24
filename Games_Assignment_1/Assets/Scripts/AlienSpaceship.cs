@@ -9,6 +9,8 @@ public class AlienSpaceship : MonoBehaviour
     public float radius;
 
     public float size;
+
+    public Material material;
     // Start is called before the first frame update
     void Start()
     {
@@ -23,15 +25,23 @@ public class AlienSpaceship : MonoBehaviour
             circles.transform.position = pos;
             circles.transform.localScale = new Vector3(size,size,size);
             circles.transform.parent = transform;
-
+            
+            circles.GetComponent<Renderer>().material = material;
+           
         }
-        
+
+        HingeJoint wheel = gameObject.AddComponent<HingeJoint>();
+        wheel.connectedBody = transform.parent.GetComponent<Rigidbody>();
+        wheel.axis = Vector3.up;
+        wheel.anchor = Vector3.up;
+        wheel.autoConfigureConnectedAnchor = true;
+
     }
 
     // Update is called once per frame
     void Update()
     {
        
-        
+        transform.parent.Translate(0,0,2*Time.deltaTime);
     }
 }
