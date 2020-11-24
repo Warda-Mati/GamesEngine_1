@@ -9,8 +9,12 @@ public class AlienSpaceship : MonoBehaviour
     public float radius;
 
     public float size;
-
+    public float speed;
     public Material material;
+
+    private bool hasReached = false;
+
+    private Vector3 currentPos;
     // Start is called before the first frame update
     void Start()
     {
@@ -35,14 +39,36 @@ public class AlienSpaceship : MonoBehaviour
         wheel.axis = Vector3.up;
         wheel.anchor = Vector3.up;
         wheel.autoConfigureConnectedAnchor = true;*/
-
+        TargetPosition();
     }
 
     // Update is called once per frame
     void Update()
     {
        
-        transform.parent.Translate(0,0,2*Time.deltaTime);
+        //transform.parent.Translate(0,0,2*Time.deltaTime);
         transform.Rotate(Vector3.up);
+        MoveSpaceShip(currentPos);
+      
+    }
+
+    void TargetPosition()
+    {
+      
+        Vector3 pos =  new Vector3(Random.Range(-20f,20f),Random.Range(-20f,20f),Random.Range(-20f,20f));
+        pos = transform.TransformPoint(pos);
+        currentPos = pos;
+        Debug.Log(currentPos);
+    }
+
+    void MoveSpaceShip(Vector3 pos)
+    {
+        float step = speed * Time.deltaTime;
+        transform.parent.position = Vector3.MoveTowards(transform.parent.position,pos,step);
+        if (Vector3.Distance(transform.parent.position, pos) < 1)
+        {
+            hasReached = true;
+            TargetPosition();
+        }
     }
 }

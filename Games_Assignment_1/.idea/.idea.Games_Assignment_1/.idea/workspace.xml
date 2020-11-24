@@ -111,7 +111,7 @@
       <workItem from="1606055922482" duration="6669000" />
       <workItem from="1606148581225" duration="2497000" />
       <workItem from="1606218911108" duration="2422000" />
-      <workItem from="1606233779561" duration="312000" />
+      <workItem from="1606233779561" duration="1627000" />
     </task>
     <servers />
   </component>
@@ -140,5 +140,24 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="458" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1606150080462" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/AlienSpaceship.cs</url>
+          <line>60</line>
+          <properties documentPath="C:\Users\verda\Desktop\DT228_Year4\GamesEngine 1\GamesEngine_1\Games_Assignment_1\Assets\Scripts\AlienSpaceship.cs" initialLine="59">
+            <startOffsets>
+              <option value="1806" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1807" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
