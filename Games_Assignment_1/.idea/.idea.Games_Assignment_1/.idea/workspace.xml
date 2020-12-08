@@ -111,7 +111,7 @@
       <workItem from="1606055922482" duration="6669000" />
       <workItem from="1606148581225" duration="2497000" />
       <workItem from="1606218911108" duration="2422000" />
-      <workItem from="1606233779561" duration="1627000" />
+      <workItem from="1606233779561" duration="1958000" />
     </task>
     <servers />
   </component>
@@ -146,13 +146,13 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Assets/Scripts/AlienSpaceship.cs</url>
-          <line>60</line>
+          <line>61</line>
           <properties documentPath="C:\Users\verda\Desktop\DT228_Year4\GamesEngine 1\GamesEngine_1\Games_Assignment_1\Assets\Scripts\AlienSpaceship.cs" initialLine="59">
             <startOffsets>
-              <option value="1806" />
+              <option value="1837" />
             </startOffsets>
             <endOffsets>
-              <option value="1807" />
+              <option value="1838" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="1" />
