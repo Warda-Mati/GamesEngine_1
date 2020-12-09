@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -24,5 +25,16 @@ public class Planet : MonoBehaviour
         player.GetComponent<Rigidbody>().AddForce(planetGravity * gravity);
         Quaternion target = Quaternion.FromToRotation(player.up, planetGravity) * player.rotation;
         player.rotation = Quaternion.Slerp(player.rotation,target,speed * Time.deltaTime);
+    }
+
+    private void OnCollisionStay(Collision other)
+    {
+        if (other.gameObject.CompareTag("Player"))
+        {
+            GetComponent<Rigidbody>().velocity = Vector3.zero;
+            GetComponent<Rigidbody>().angularVelocity = Vector3.zero;
+           
+
+        }
     }
 }

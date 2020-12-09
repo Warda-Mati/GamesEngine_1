@@ -15,22 +15,12 @@ MonoBehaviour:
   radius: 2.72
   layers:
   - enabled: 1
-    layerMask: 1
+    layerMask: 0
     options:
-      strength: 0.29
-      layers: 5
-      baseRoughness: 2.41
-      frequency: 0.96
-      amplitude: 1.08
-      minValue: 0.9
-      centre: {x: 0, y: 4.6, z: 4.61}
-  - enabled: 1
-    layerMask: 1
-    options:
-      strength: 1.65
-      layers: 8
-      baseRoughness: 3.67
-      frequency: 1.48
-      amplitude: 1.08
-      minValue: 0.9
-      centre: {x: 0, y: 4.6, z: 4.61}
+      strength: 0.4
+      layers: 4
+      baseRoughness: 0.8
+      frequency: 1.22
+      amplitude: 1.15
+      minValue: 1
+      centre: {x: 0, y: 3, z: 4}
