@@ -26,6 +26,7 @@ public class ShipMovement : MonoBehaviour
         
     }
 
+    
     public void OnTriggerStay(Collider other)
     {
         if (other.gameObject.CompareTag("planet"))

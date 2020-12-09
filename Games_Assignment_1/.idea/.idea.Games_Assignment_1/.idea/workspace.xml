@@ -58,6 +58,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/AsteroidRing.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AlienSpaceship.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/test/Planet.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/test/ShipMovement.cs" />
       </list>
     </option>
   </component>
@@ -113,7 +114,7 @@
       <workItem from="1606148581225" duration="2497000" />
       <workItem from="1606218911108" duration="2422000" />
       <workItem from="1606233779561" duration="1958000" />
-      <workItem from="1607530182309" duration="2500000" />
+      <workItem from="1607530182309" duration="3126000" />
     </task>
     <servers />
   </component>
