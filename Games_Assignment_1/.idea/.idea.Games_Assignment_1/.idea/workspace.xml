@@ -32,6 +32,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlanetEditor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/StarRings.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AlienSpaceship.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Shooter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AsteroidRing.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -59,6 +60,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/AlienSpaceship.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/test/Planet.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/test/ShipMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Shooter.cs" />
       </list>
     </option>
   </component>
@@ -114,7 +116,7 @@
       <workItem from="1606148581225" duration="2497000" />
       <workItem from="1606218911108" duration="2422000" />
       <workItem from="1606233779561" duration="1958000" />
-      <workItem from="1607530182309" duration="3126000" />
+      <workItem from="1607530182309" duration="4569000" />
     </task>
     <servers />
   </component>
