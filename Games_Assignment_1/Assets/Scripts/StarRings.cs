@@ -21,6 +21,5 @@ public class StarRings : MonoBehaviour
         star.transform.RotateAround(transform.position, Vector3.up, 20 * Time.deltaTime);
         Transform star1 = transform.GetChild(1);
         star1.transform.RotateAround(transform.position, Vector3.right, 20 * Time.deltaTime);
-    
     }
 }

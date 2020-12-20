@@ -21,6 +21,14 @@ public class PlayerGrav : MonoBehaviour
        
     }
 
+    void OnTriggerStay(Collider other)
+    {
+        if (other.gameObject.CompareTag("planet"))
+        {
+            planet = other.gameObject.GetComponent<Planet>();
+        }
+    }
+
     private void FixedUpdate()
     {
         if(planet)
