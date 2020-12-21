@@ -16,7 +16,7 @@ public class Orbit : MonoBehaviour
             GameObject newPlanet = Instantiate(planets[i]);
             newPlanet.GetComponent<Planet>().sun = gameObject;
             newPlanet.GetComponent<Planet>().orbitSpeed = Random.Range(0.05f, 1.5f);
-            Vector3 pos = new Vector3(distance*i,0,0);
+            Vector3 pos = new Vector3(distance*(i + 1),0,0);
             newPlanet.transform.position = transform.TransformPoint(pos);
         }
         

@@ -21,7 +21,7 @@ public class NoiseFilter
         for (int i = 0; i < options.layers; i++)
         {
             float evaluation = noise.Evaluate(planetPoint * frequency + options.centre);
-            value = (evaluation + 1) * .5f * amplitude;
+            value += (evaluation + 1) * .5f * amplitude;
             frequency *= options.frequency;
             amplitude *= options.amplitude;
             

@@ -54,7 +54,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Planet/ShapeSettings.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlanetEditor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ShapeSettings.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/MakePlanet.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlanetShape.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AsteroidRing.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AlienSpaceship.cs" />
@@ -65,6 +64,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/test/PlayerGrav.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/test/Planet.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Orbit.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/NoiseFilter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MakePlanet.cs" />
       </list>
     </option>
   </component>
@@ -121,7 +122,8 @@
       <workItem from="1606218911108" duration="2422000" />
       <workItem from="1606233779561" duration="1958000" />
       <workItem from="1607530182309" duration="5088000" />
-      <workItem from="1608468016349" duration="7957000" />
+      <workItem from="1608468016349" duration="8067000" />
+      <workItem from="1608564659969" duration="2354000" />
     </task>
     <servers />
   </component>

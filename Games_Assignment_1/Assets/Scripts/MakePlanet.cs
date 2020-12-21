@@ -46,7 +46,7 @@ public class MakePlanet : MonoBehaviour
                 if(MeshFilters[i] == null){
                     GameObject face =  new GameObject("Face");
                     face.transform.parent = this.transform;
-                
+                    face.transform.position = this.transform.position;
                     face.AddComponent<MeshRenderer>().sharedMaterial = new Material(Shader.Find("Standard"));
                     MeshFilters[i] = face.AddComponent<MeshFilter>();
                     MeshFilters[i].sharedMesh = new Mesh();
