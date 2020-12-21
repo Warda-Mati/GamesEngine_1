@@ -13,6 +13,7 @@ public class Orbit : MonoBehaviour
         for (int i = 0; i < planets.Length; i++)
         {
             GameObject newPlanet = Instantiate(planets[i]);
+            newPlanet.GetComponent<Planet>().sun = gameObject;
             Vector3 pos = new Vector3(distance*i,0,0);
             newPlanet.transform.position = transform.TransformPoint(pos);
         }
@@ -22,6 +23,7 @@ public class Orbit : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+      
+     
     }
 }
