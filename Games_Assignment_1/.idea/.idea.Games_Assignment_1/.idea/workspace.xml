@@ -55,13 +55,13 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/ShapeSettings.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MakePlanet.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlanetShape.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/StarRings.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AsteroidRing.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AlienSpaceship.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/test/Planet.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/test/ShipMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Shooter.cs" />
         <option value="$PROJECT_DIR$/Assets/Asteroids Pack/Assets/Scripts/RandomRotator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/StarRings.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/test/Planet.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/test/PlayerGrav.cs" />
       </list>
     </option>
@@ -119,7 +119,7 @@
       <workItem from="1606218911108" duration="2422000" />
       <workItem from="1606233779561" duration="1958000" />
       <workItem from="1607530182309" duration="5088000" />
-      <workItem from="1608468016349" duration="4156000" />
+      <workItem from="1608468016349" duration="4948000" />
     </task>
     <servers />
   </component>
