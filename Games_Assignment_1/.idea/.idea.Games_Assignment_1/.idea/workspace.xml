@@ -29,6 +29,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlanetRings.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlanetEditor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/StarRings.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AlienSpaceship.cs" root0="FORCE_HIGHLIGHTING" />
@@ -66,6 +67,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Orbit.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/NoiseFilter.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MakePlanet.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlanetRings.cs" />
       </list>
     </option>
   </component>
@@ -123,7 +125,7 @@
       <workItem from="1606233779561" duration="1958000" />
       <workItem from="1607530182309" duration="5088000" />
       <workItem from="1608468016349" duration="8067000" />
-      <workItem from="1608564659969" duration="2354000" />
+      <workItem from="1608564659969" duration="3419000" />
     </task>
     <servers />
   </component>
