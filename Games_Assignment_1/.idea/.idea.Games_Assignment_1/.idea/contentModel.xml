@@ -22,6 +22,7 @@
           <e p="Noise.cs" t="Include" />
           <e p="NoiseFilter.cs" t="Include" />
           <e p="NoiseOptions.cs" t="Include" />
+          <e p="Orbit.cs" t="Include" />
           <e p="PlanetEditor.cs" t="Include" />
           <e p="PlanetShape.cs" t="Include" />
           <e p="ShapeSettings.cs" t="Include" />
