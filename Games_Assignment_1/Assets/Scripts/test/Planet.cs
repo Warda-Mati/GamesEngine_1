@@ -2,12 +2,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Random = System.Random;
 
 public class Planet : MonoBehaviour
 {
     public float gravity;
     public int speed;
-
+    public float orbitSpeed;
     public GameObject sun;
     // Start is called before the first frame update
     void Start()
@@ -18,7 +19,7 @@ public class Planet : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.RotateAround(sun.transform.position, Vector3.up, 20 * Time.deltaTime);
+        transform.RotateAround(sun.transform.position, Vector3.up, orbitSpeed * Time.deltaTime);
     }
 
     public void Attract(Transform player)
