@@ -20,7 +20,7 @@ public class Planet : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.RotateAround(sun.transform.position, Vector3.up, orbitSpeed * Time.deltaTime);
+       transform.RotateAround(sun.transform.position, Vector3.up, orbitSpeed * Time.deltaTime);
     }
 
     public void Attract(Transform player)

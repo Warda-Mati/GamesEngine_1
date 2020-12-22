@@ -63,11 +63,11 @@
         <option value="$PROJECT_DIR$/Assets/Asteroids Pack/Assets/Scripts/RandomRotator.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/StarRings.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/test/PlayerGrav.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/test/Planet.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Orbit.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/NoiseFilter.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MakePlanet.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlanetRings.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/test/Planet.cs" />
       </list>
     </option>
   </component>
@@ -126,7 +126,7 @@
       <workItem from="1607530182309" duration="5088000" />
       <workItem from="1608468016349" duration="8067000" />
       <workItem from="1608564659969" duration="5895000" />
-      <workItem from="1608638562894" duration="340000" />
+      <workItem from="1608638562894" duration="1981000" />
     </task>
     <servers />
   </component>
