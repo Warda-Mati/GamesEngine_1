@@ -10,17 +10,21 @@ public class Planet : MonoBehaviour
     public int speed;
     public float orbitSpeed;
     public GameObject sun;
+
+    private bool landed;
     //public int size;
     // Start is called before the first frame update
     void Start()
     {
-       // transform.localScale = new Vector3(size, size, size);
+        landed = false;
+        // transform.localScale = new Vector3(size, size, size);
     }
 
     // Update is called once per frame
     void Update()
     {
-       transform.RotateAround(sun.transform.position, Vector3.up, orbitSpeed * Time.deltaTime);
+        
+        transform.RotateAround(sun.transform.position, Vector3.up, orbitSpeed * Time.deltaTime);
     }
 
     public void Attract(Transform player)
@@ -37,6 +41,7 @@ public class Planet : MonoBehaviour
         {
             GetComponent<Rigidbody>().velocity = Vector3.zero;
             GetComponent<Rigidbody>().angularVelocity = Vector3.zero;
+            landed = true;
         }
     }
 }
