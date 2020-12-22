@@ -32,6 +32,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlanetRings.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlanetEditor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/StarRings.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Spawner.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AlienSpaceship.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Shooter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AsteroidRing.cs" root0="FORCE_HIGHLIGHTING" />
@@ -68,6 +69,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/MakePlanet.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlanetRings.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/test/Planet.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Spawner.cs" />
       </list>
     </option>
   </component>
@@ -126,7 +128,7 @@
       <workItem from="1607530182309" duration="5088000" />
       <workItem from="1608468016349" duration="8067000" />
       <workItem from="1608564659969" duration="5895000" />
-      <workItem from="1608638562894" duration="1981000" />
+      <workItem from="1608638562894" duration="4315000" />
     </task>
     <servers />
   </component>

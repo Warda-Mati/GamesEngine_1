@@ -37,7 +37,6 @@ public class Planet : MonoBehaviour
         {
             GetComponent<Rigidbody>().velocity = Vector3.zero;
             GetComponent<Rigidbody>().angularVelocity = Vector3.zero;
-
         }
     }
 }

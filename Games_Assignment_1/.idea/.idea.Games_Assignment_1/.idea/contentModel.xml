@@ -29,6 +29,7 @@
           <e p="ShapeSettings.cs" t="Include" />
           <e p="Shooter.cs" t="Include" />
           <e p="ShootingStar.cs" t="Include" />
+          <e p="Spawner.cs" t="Include" />
           <e p="StarRings.cs" t="Include" />
           <e p="test" t="Include">
             <e p="CameraMovement.cs" t="Include" />
