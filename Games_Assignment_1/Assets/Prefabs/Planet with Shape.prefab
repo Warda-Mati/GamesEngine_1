@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4012932064721835341
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4012932064721835331}
+  - component: {fileID: 4012932064721835330}
+  - component: {fileID: 4012932064721835328}
+  - component: {fileID: 4017835704577140589}
+  m_Layer: 0
+  m_Name: Planet with Shape
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4012932064721835331
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4012932064721835341}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 335.9934, y: 253.78291, z: -393}
+  m_LocalScale: {x: 30, y: 30, z: 30}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4012932064721835330
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4012932064721835341}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f01c5016fb55458458a87aa9c3dbbdf8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  resolution: 100
+  settings: {fileID: 11400000, guid: 489ed2e11b89fbd45ad9a505a688a8e1, type: 2}
+  foldout: 1
+  autoUpdate: 1
+--- !u!114 &4012932064721835328
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4012932064721835341}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 544bbe7c8149f9241b57ca27f333f02c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &4017835704577140589
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4012932064721835341}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19137b3c8734ed1439890501de03bfae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gravity: -1
+  speed: 5
+  orbitSpeed: 0
+  sun: {fileID: 2612405686454986660, guid: 7875acf9b932af2418d47470059e677c, type: 3}

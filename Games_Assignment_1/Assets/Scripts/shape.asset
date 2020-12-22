@@ -12,25 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d1cb3b3802d6634a90e87a990ab8728, type: 3}
   m_Name: shape
   m_EditorClassIdentifier: 
-  radius: 2.72
+  radius: 3.57
   layers:
-  - enabled: 0
-    layerMask: 1
-    options:
-      strength: 1
-      layers: 5
-      baseRoughness: 2.08
-      frequency: 0.54
-      amplitude: 1.07
-      minValue: 1.32
-      centre: {x: 2, y: 2, z: 2}
   - enabled: 1
     layerMask: 0
     options:
-      strength: 1
+      strength: 0.3
       layers: 5
-      baseRoughness: 0.47
-      frequency: 0.6
-      amplitude: 1.41
-      minValue: 0.57
+      baseRoughness: 0.19
+      frequency: 2.24
+      amplitude: 0.7
+      minValue: 1
       centre: {x: 2, y: 2, z: 2}

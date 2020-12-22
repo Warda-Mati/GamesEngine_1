@@ -113,7 +113,7 @@ MonoBehaviour:
   speed: 20
   orbitSpeed: 0
   sun: {fileID: 2612405686454986660, guid: 7875acf9b932af2418d47470059e677c, type: 3}
-  size: 20
+  size: 80
 --- !u!54 &3061711110671636279
 Rigidbody:
   m_ObjectHideFlags: 0

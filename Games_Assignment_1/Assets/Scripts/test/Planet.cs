@@ -10,11 +10,11 @@ public class Planet : MonoBehaviour
     public int speed;
     public float orbitSpeed;
     public GameObject sun;
-    public int size;
+    //public int size;
     // Start is called before the first frame update
     void Start()
     {
-        transform.localScale = new Vector3(size, size, size);
+       // transform.localScale = new Vector3(size, size, size);
     }
 
     // Update is called once per frame
