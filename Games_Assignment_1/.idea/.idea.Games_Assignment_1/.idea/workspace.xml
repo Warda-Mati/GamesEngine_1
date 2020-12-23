@@ -60,7 +60,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/PlanetShape.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AsteroidRing.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AlienSpaceship.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/test/ShipMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Asteroids Pack/Assets/Scripts/RandomRotator.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/StarRings.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/test/PlayerGrav.cs" />
@@ -76,6 +75,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/MoveTarget.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ShootingStar.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Shooter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/test/ShipMovement.cs" />
       </list>
     </option>
   </component>
@@ -135,7 +135,7 @@
       <workItem from="1608468016349" duration="8067000" />
       <workItem from="1608564659969" duration="5895000" />
       <workItem from="1608638562894" duration="5184000" />
-      <workItem from="1608728447584" duration="8593000" />
+      <workItem from="1608728447584" duration="9217000" />
     </task>
     <servers />
   </component>

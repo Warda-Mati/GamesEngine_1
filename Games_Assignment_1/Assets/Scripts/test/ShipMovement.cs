@@ -8,6 +8,10 @@ public class ShipMovement : MonoBehaviour
     public int speed;
     public GameObject player;
     public int rotationSpeed;
+
+    public AudioSource shipMovement;
+
+    private Vector3 currentPos,lastPos;
     // Start is called before the first frame update
     void Start()
     {
@@ -22,8 +26,20 @@ public class ShipMovement : MonoBehaviour
         
         transform.Translate(0,0,speed*Time.deltaTime * vert);
         transform.Rotate(0, rotationSpeed*Time.deltaTime * horiz, 0);
-   
-        
+
+        currentPos = transform.position;
+        if (currentPos == lastPos)
+        {
+            shipMovement.Stop();
+        }
+        else
+        {
+            shipMovement.Play();
+        }
+
+        lastPos = currentPos;
+
+
     }
 
     
