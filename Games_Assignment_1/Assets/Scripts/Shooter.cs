@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEditor;
 using UnityEngine.UI;
 
 public class Shooter : MonoBehaviour
@@ -14,6 +15,8 @@ public class Shooter : MonoBehaviour
     private int i;
 
     public float fireSpeed;
+
+    public AudioSource laserSound;
     // Start is called before the first frame update
     void Start()
     {
@@ -37,6 +40,10 @@ public class Shooter : MonoBehaviour
         {
             if (Input.GetKey(KeyCode.K))
             {
+                
+                laserSound.Stop();
+                
+                laserSound.Play();
                 Transform target = shooters[i].transform.GetChild(0);
                 RectTransform targetT = targetSign.GetComponent<RectTransform>();
                 Vector3 targetPos = targetT.position - shooters[i].transform.position;
