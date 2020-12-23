@@ -13,6 +13,9 @@
             </e>
           </e>
         </e>
+        <e p="Materials" t="Include">
+          <e p="NewSurfaceShader.shader" t="Include" />
+        </e>
         <e p="Scripts" t="Include">
           <e p="AlienSpaceship.cs" t="Include" />
           <e p="AsteroidField.cs" t="Include" />
