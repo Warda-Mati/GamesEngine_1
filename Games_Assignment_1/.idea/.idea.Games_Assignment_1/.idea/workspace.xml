@@ -37,6 +37,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Shooter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AsteroidRing.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Orbit.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MoveTarget.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -73,6 +74,7 @@
         <option value="$PROJECT_DIR$/Assets/Prefabs/PlanetRing.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlanetRings.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Shooter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MoveTarget.cs" />
       </list>
     </option>
   </component>
@@ -132,7 +134,7 @@
       <workItem from="1608468016349" duration="8067000" />
       <workItem from="1608564659969" duration="5895000" />
       <workItem from="1608638562894" duration="5184000" />
-      <workItem from="1608728447584" duration="5043000" />
+      <workItem from="1608728447584" duration="6498000" />
     </task>
     <servers />
   </component>

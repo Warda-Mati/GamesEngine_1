@@ -22,6 +22,7 @@
           <e p="AsteroidRing.cs" t="Include" />
           <e p="CreateMesh.cs" t="Include" />
           <e p="MakePlanet.cs" t="Include" />
+          <e p="MoveTarget.cs" t="Include" />
           <e p="Noise.cs" t="Include" />
           <e p="NoiseFilter.cs" t="Include" />
           <e p="NoiseOptions.cs" t="Include" />
