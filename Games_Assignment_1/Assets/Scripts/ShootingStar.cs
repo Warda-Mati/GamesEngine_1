@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Security.Cryptography;
 using UnityEngine;
 
 public class ShootingStar : MonoBehaviour
@@ -15,5 +16,6 @@ public class ShootingStar : MonoBehaviour
     void Update()
     {
         transform.Translate(0,0,speed *Time.deltaTime);
+        Destroy(this.gameObject,5);
     }
 }

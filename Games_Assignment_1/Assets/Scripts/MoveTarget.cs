@@ -30,12 +30,12 @@ public class MoveTarget : MonoBehaviour
         }
         if (Input.GetKey(KeyCode.G))
         {
-            targetPos.Translate(speed * Time.deltaTime,0,0);
+            targetPos.Translate(-speed * Time.deltaTime,0,0);
         }
 
         if (Input.GetKey(KeyCode.J))
         {
-            targetPos.Translate(-speed * Time.deltaTime,0,0);
+            targetPos.Translate(speed * Time.deltaTime,0,0);
         }
        
         

@@ -12,6 +12,8 @@ public class Shooter : MonoBehaviour
     public GameObject bullets;
     public RawImage targetSign;
     private int i;
+
+    public float fireSpeed;
     // Start is called before the first frame update
     void Start()
     {
@@ -49,7 +51,7 @@ public class Shooter : MonoBehaviour
                     i = 0;
                 }
                 
-                yield return  new WaitForSeconds(1);
+                yield return  new WaitForSeconds(fireSpeed);
                 
             }
 
