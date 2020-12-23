@@ -67,10 +67,12 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Orbit.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/NoiseFilter.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MakePlanet.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlanetRings.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Spawner.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/test/Planet.cs" />
         <option value="$PROJECT_DIR$/Assets/Prefabs/NewSurfaceShader.shader" />
+        <option value="$PROJECT_DIR$/Assets/Materials/NewSurfaceShader.shader" />
+        <option value="$PROJECT_DIR$/Assets/Prefabs/PlanetRing.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlanetRings.cs" />
       </list>
     </option>
   </component>
@@ -130,7 +132,7 @@
       <workItem from="1608468016349" duration="8067000" />
       <workItem from="1608564659969" duration="5895000" />
       <workItem from="1608638562894" duration="5184000" />
-      <workItem from="1608728447584" duration="410000" />
+      <workItem from="1608728447584" duration="2577000" />
     </task>
     <servers />
   </component>
