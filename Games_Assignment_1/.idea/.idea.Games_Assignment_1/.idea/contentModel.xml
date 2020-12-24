@@ -31,6 +31,7 @@
           <e p="PlanetEditor.cs" t="Include" />
           <e p="PlanetRings.cs" t="Include" />
           <e p="PlanetShape.cs" t="Include" />
+          <e p="RigidNoise.cs" t="Include" />
           <e p="ShapeSettings.cs" t="Include" />
           <e p="Shooter.cs" t="Include" />
           <e p="ShootingStar.cs" t="Include" />

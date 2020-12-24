@@ -6,11 +6,12 @@ public class NoiseFilter
 {
     public NoiseOptions options;
     public Noise noise = new Noise();
-
+    public string type;
     public NoiseFilter(NoiseOptions options)
     {
         this.options = options;
-        
+        type = options.type.ToString();
+
     }
 
     public float ShapeNoise(Vector3 planetPoint)
@@ -18,10 +19,23 @@ public class NoiseFilter
         float value = 0;
         float frequency = options.baseRoughness;
         float amplitude = 1;
+        float weight = 1;
         for (int i = 0; i < options.layers; i++)
         {
-            float evaluation = noise.Evaluate(planetPoint * frequency + options.centre);
-            value += (evaluation + 1) * .5f * amplitude;
+            if (type == "Rigid")
+            {
+                float evaluation = 1- Mathf.Abs(noise.Evaluate(planetPoint * frequency + options.centre));
+                evaluation *= evaluation;
+                evaluation *= weight;
+                weight = evaluation;
+                value += (evaluation * amplitude);
+            }
+            else
+            {
+                float evaluation = noise.Evaluate(planetPoint * frequency + options.centre);
+                value += (evaluation + 1) * .5f * amplitude;
+                
+            }
             frequency *= options.frequency;
             amplitude *= options.amplitude;
             
