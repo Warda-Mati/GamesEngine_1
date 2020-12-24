@@ -40,6 +40,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Orbit.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MoveTarget.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/AlienHitBox.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ColorGenerator.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -77,11 +78,13 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/RigidNoise.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/NoiseOptions.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/NoiseFilter.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlanetShape.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/test/ShipMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlanetColoring.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/MakePlanet.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlanetEditor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlanetHeights.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlanetShape.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ColorGenerator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MakePlanet.cs" />
       </list>
     </option>
   </component>
@@ -142,7 +145,7 @@
       <workItem from="1608564659969" duration="5895000" />
       <workItem from="1608638562894" duration="5184000" />
       <workItem from="1608728447584" duration="10412000" />
-      <workItem from="1608807354733" duration="7131000" />
+      <workItem from="1608807354733" duration="8843000" />
     </task>
     <servers />
   </component>

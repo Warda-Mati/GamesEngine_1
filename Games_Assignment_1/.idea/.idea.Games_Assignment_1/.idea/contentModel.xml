@@ -22,6 +22,7 @@
           <e p="AlienSpaceship.cs" t="Include" />
           <e p="AsteroidField.cs" t="Include" />
           <e p="AsteroidRing.cs" t="Include" />
+          <e p="ColorGenerator.cs" t="Include" />
           <e p="CreateMesh.cs" t="Include" />
           <e p="MakePlanet.cs" t="Include" />
           <e p="MoveTarget.cs" t="Include" />
@@ -31,6 +32,7 @@
           <e p="Orbit.cs" t="Include" />
           <e p="PlanetColoring.cs" t="Include" />
           <e p="PlanetEditor.cs" t="Include" />
+          <e p="PlanetHeights.cs" t="Include" />
           <e p="PlanetRings.cs" t="Include" />
           <e p="PlanetShape.cs" t="Include" />
           <e p="RigidNoise.cs" t="Include" />

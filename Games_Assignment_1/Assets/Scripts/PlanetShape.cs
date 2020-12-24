@@ -6,7 +6,7 @@ public class PlanetShape
 {
     public NoiseFilter[] filter;
     public ShapeSettings settings;
-   
+    public PlanetHeights height;
 
     public PlanetShape(ShapeSettings settings)
     {
@@ -14,7 +14,7 @@ public class PlanetShape
         filter = new NoiseFilter[settings.layers.Length];
         for (int i = 0; i < filter.Length; i++)
             filter[i] = new NoiseFilter(settings.layers[i].options);
-
+        height = new PlanetHeights();
     }
 
     public Vector3 CalculatePoint(Vector3 point)
@@ -38,8 +38,9 @@ public class PlanetShape
             }
 
         }
-
-        return point * settings.radius * (1 + elevation);
+        elevation = settings.radius * (1 + elevation);
+        height.Add(elevation);
+        return point * elevation;
     }
 
    
