@@ -19,7 +19,9 @@ public class AlienHitBox : MonoBehaviour
     {
         if (other.gameObject.CompareTag("bullet"))
         {
-            if (transform.GetChild(0) != null)
+            Debug.Log("spaceship hits");
+            Debug.Log(transform.childCount);
+            if (transform.childCount > 0)
             {
                 GameObject spacepart = this.transform.GetChild(0).gameObject;
                 spacepart.transform.parent = null;

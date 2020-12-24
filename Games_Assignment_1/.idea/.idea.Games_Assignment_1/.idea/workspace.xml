@@ -75,9 +75,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/ShootingStar.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Shooter.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/test/ShipMovement.cs" />
-        <option value="$PROJECT_DIR$/Assets/AlienHitBox.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AlienSpaceship.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Spawner.cs" />
+        <option value="$PROJECT_DIR$/Assets/AlienHitBox.cs" />
       </list>
     </option>
   </component>
@@ -138,7 +138,7 @@
       <workItem from="1608564659969" duration="5895000" />
       <workItem from="1608638562894" duration="5184000" />
       <workItem from="1608728447584" duration="10412000" />
-      <workItem from="1608807354733" duration="1044000" />
+      <workItem from="1608807354733" duration="1426000" />
     </task>
     <servers />
   </component>
