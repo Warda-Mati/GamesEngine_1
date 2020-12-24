@@ -50,7 +50,8 @@ public class MakePlanet : MonoBehaviour
                     face.AddComponent<MeshRenderer>().sharedMaterial = new Material(Shader.Find("Standard"));
                     MeshFilters[i] = face.AddComponent<MeshFilter>();
                     MeshFilters[i].sharedMesh = new Mesh();
-
+                    MeshCollider collider = face.AddComponent<MeshCollider>();
+                    collider.convex = true;
                 }
                 
                 

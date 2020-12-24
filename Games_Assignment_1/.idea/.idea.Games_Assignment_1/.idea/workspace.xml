@@ -64,7 +64,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/StarRings.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/test/PlayerGrav.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Orbit.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/MakePlanet.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/test/Planet.cs" />
         <option value="$PROJECT_DIR$/Assets/Prefabs/NewSurfaceShader.shader" />
         <option value="$PROJECT_DIR$/Assets/Materials/NewSurfaceShader.shader" />
@@ -78,9 +77,10 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Spawner.cs" />
         <option value="$PROJECT_DIR$/Assets/AlienHitBox.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/RigidNoise.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/NoiseFilter.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/NoiseOptions.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/NoiseFilter.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlanetShape.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MakePlanet.cs" />
       </list>
     </option>
   </component>
@@ -141,7 +141,7 @@
       <workItem from="1608564659969" duration="5895000" />
       <workItem from="1608638562894" duration="5184000" />
       <workItem from="1608728447584" duration="10412000" />
-      <workItem from="1608807354733" duration="2631000" />
+      <workItem from="1608807354733" duration="4060000" />
     </task>
     <servers />
   </component>

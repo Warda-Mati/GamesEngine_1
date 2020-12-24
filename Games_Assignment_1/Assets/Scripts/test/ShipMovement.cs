@@ -27,7 +27,7 @@ public class ShipMovement : MonoBehaviour
         transform.Translate(0,0,speed*Time.deltaTime * vert);
         transform.Rotate(0, rotationSpeed*Time.deltaTime * horiz, 0);
 
-        currentPos = transform.position;
+        /*currentPos = transform.position;
         if (currentPos == lastPos)
         {
             shipMovement.Stop();
@@ -37,7 +37,7 @@ public class ShipMovement : MonoBehaviour
             shipMovement.Play();
         }
 
-        lastPos = currentPos;
+        lastPos = currentPos;*/
 
 
     }

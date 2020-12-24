@@ -17,10 +17,11 @@ MonoBehaviour:
   - enabled: 1
     layerMask: 0
     options:
+      type: 1
       strength: 0.15
       layers: 5
-      baseRoughness: 0.36
-      frequency: 3.16
-      amplitude: 0.53
+      baseRoughness: 0.28
+      frequency: 3.68
+      amplitude: 0.71
       minValue: 1
       centre: {x: 1, y: 2, z: 1}
