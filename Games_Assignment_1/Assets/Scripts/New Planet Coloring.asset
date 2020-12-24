@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: New Planet Coloring
   m_EditorClassIdentifier: 
   color: {r: 0, g: 0, b: 0, a: 0}
-  Material: {fileID: 0}
+  Material: {fileID: 2100000, guid: 5e497c3ad17432e4ab4278237a7082a1, type: 2}

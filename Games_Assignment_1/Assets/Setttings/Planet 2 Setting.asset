@@ -10,18 +10,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1d1cb3b3802d6634a90e87a990ab8728, type: 3}
-  m_Name: shape
+  m_Name: Planet 2 Setting
   m_EditorClassIdentifier: 
-  radius: 35
+  radius: 30
   layers:
   - enabled: 1
-    layerMask: 0
+    layerMask: 1
     options:
-      type: 0
-      strength: 0.21
-      layers: 5
-      baseRoughness: 1.49
-      frequency: 2.96
-      amplitude: 0.55
+      type: 1
+      strength: -0.15
+      layers: 4
+      baseRoughness: 2.29
+      frequency: 1.35
+      amplitude: 1.4
       minValue: 1
-      centre: {x: 1, y: 2, z: 1}
+      centre: {x: 2, y: 2, z: 2}
