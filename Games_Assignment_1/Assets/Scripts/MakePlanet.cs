@@ -7,12 +7,15 @@ public class MakePlanet : MonoBehaviour
     
     public int resolution;
     public ShapeSettings settings;
+    public PlanetColoring Coloring;
     MeshFilter[] MeshFilters = new MeshFilter[6];
     CreateMesh[] meshes = new CreateMesh[6];
  
     
     [HideInInspector]
     public bool foldout;
+    [HideInInspector]
+    public bool colorFoldout;
     [HideInInspector]
     public bool autoUpdate = true;
     
@@ -32,11 +35,7 @@ public class MakePlanet : MonoBehaviour
 
     public void CreatePlanet()
     {
-        /*int numberOfChild = transform.childCount;
-        for(int j = 0; j < numberOfChild; j++){
-            Debug.Log(transform.childCount);
-            DestroyImmediate(transform.GetChild(j).gameObject);
-        } */
+        
                
         shape = new PlanetShape(settings);
         Vector3[] AllDirections = {Vector3.up, Vector3.down, Vector3.left, Vector3.right, Vector3.forward, Vector3.back};
@@ -47,9 +46,10 @@ public class MakePlanet : MonoBehaviour
                     GameObject face =  new GameObject("Face");
                     face.transform.parent = this.transform;
                     face.transform.position = this.transform.position;
-                    face.AddComponent<MeshRenderer>().sharedMaterial = new Material(Shader.Find("Standard"));
+                    face.AddComponent<MeshRenderer>().sharedMaterial = Coloring.Material ;
                     MeshFilters[i] = face.AddComponent<MeshFilter>();
                     MeshFilters[i].sharedMesh = new Mesh();
+                   
                     //MeshCollider collider = face.AddComponent<MeshCollider>();
                     //collider.convex = true;
                 }
@@ -71,6 +71,14 @@ public class MakePlanet : MonoBehaviour
         if (autoUpdate)
         {
             CreatePlanet();
+        }
+    }
+
+    public void ColorUpdated()
+    {
+        foreach (MeshFilter m in MeshFilters)
+        {
+            m.GetComponent<MeshRenderer>().sharedMaterial.color = Coloring.color;
         }
     }
 }
