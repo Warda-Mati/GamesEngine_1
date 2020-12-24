@@ -12,6 +12,8 @@ public class ShipMovement : MonoBehaviour
     public AudioSource shipMovement;
 
     private Vector3 currentPos,lastPos;
+
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -49,8 +51,11 @@ public class ShipMovement : MonoBehaviour
         {
             if (Input.GetKey(KeyCode.P))
             {
-                player.transform.parent = null;
                 player.SetActive(true);
+                player.transform.parent = null;
+                player.transform.position = transform.position;
+           
+                transform.position = Vector3.zero;
                 this.gameObject.SetActive(false);
             }
           

@@ -7,7 +7,6 @@
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
-        <e p="AlienHitBox.cs" t="Include" />
         <e p="Asteroids Pack" t="Include">
           <e p="Assets" t="Include">
             <e p="Scripts" t="Include">
@@ -19,11 +18,13 @@
           <e p="NewSurfaceShader.shader" t="Include" />
         </e>
         <e p="Scripts" t="Include">
+          <e p="AlienHitBox.cs" t="Include" />
           <e p="AlienSpaceship.cs" t="Include" />
           <e p="AsteroidField.cs" t="Include" />
           <e p="AsteroidRing.cs" t="Include" />
           <e p="ColorGenerator.cs" t="Include" />
           <e p="CreateMesh.cs" t="Include" />
+          <e p="HealthBar.cs" t="Include" />
           <e p="MakePlanet.cs" t="Include" />
           <e p="MoveTarget.cs" t="Include" />
           <e p="Noise.cs" t="Include" />

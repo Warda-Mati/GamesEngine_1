@@ -60,7 +60,7 @@ public class AlienSpaceship : MonoBehaviour
         Vector3 pos =  new Vector3(Random.Range(-20f,20f),Random.Range(-20f,20f),Random.Range(-20f,20f));
         pos = transform.TransformPoint(pos);
         currentPos = pos;
-        Debug.Log(currentPos);
+      
     }
 
    

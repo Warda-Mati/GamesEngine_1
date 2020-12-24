@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Security.Cryptography;
 using UnityEngine;
@@ -6,6 +7,8 @@ using UnityEngine;
 public class ShootingStar : MonoBehaviour
 {
     public int speed;
+
+    public int lifeTime;
     // Start is called before the first frame update
     void Start()
     {
@@ -16,6 +19,6 @@ public class ShootingStar : MonoBehaviour
     void Update()
     {
         transform.Translate(0,0,speed *Time.deltaTime);
-        Destroy(this.gameObject,5);
+        Destroy(this.gameObject,lifeTime);
     }
 }

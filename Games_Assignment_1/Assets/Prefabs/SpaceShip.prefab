@@ -301,6 +301,7 @@ MonoBehaviour:
   speed: 10
   player: {fileID: 0}
   rotationSpeed: 20
+  shipMovement: {fileID: 0}
 --- !u!1 &6033547880317523581
 GameObject:
   m_ObjectHideFlags: 0

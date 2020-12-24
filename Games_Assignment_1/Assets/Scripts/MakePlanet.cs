@@ -18,8 +18,8 @@ public class MakePlanet : MonoBehaviour
     public bool colorFoldout;
     [HideInInspector]
     public bool autoUpdate = true;
-    
 
+    private GameObject[] allfaces;
     public PlanetShape shape;
 
     public ColorGenerator generator;
@@ -38,7 +38,7 @@ public class MakePlanet : MonoBehaviour
     public void CreatePlanet()
     {
         
-               
+        allfaces = new GameObject[6];
         shape = new PlanetShape(settings);
         generator = new ColorGenerator(Coloring);
         Vector3[] AllDirections = {Vector3.up, Vector3.down, Vector3.left, Vector3.right, Vector3.forward, Vector3.back};
@@ -53,11 +53,12 @@ public class MakePlanet : MonoBehaviour
                     MeshFilters[i] = face.AddComponent<MeshFilter>();
                     MeshFilters[i].sharedMesh = new Mesh();
                    
-                    //MeshCollider collider = face.AddComponent<MeshCollider>();
-                    //collider.convex = true;
+                    MeshCollider collider = face.AddComponent<MeshCollider>();
+                    collider.convex = true;
+                    allfaces[i] = face;
                 }
                 generator.UpdateElevation(shape.height);
-                
+             
                 meshes[i] = new CreateMesh(MeshFilters[i].sharedMesh,resolution,AllDirections[i],shape);
                 meshes[i].Create();
 
@@ -79,9 +80,15 @@ public class MakePlanet : MonoBehaviour
 
     public void ColorUpdated()
     {
-        foreach (MeshFilter m in MeshFilters)
+        if (transform.childCount > 0)
         {
-            m.GetComponent<MeshRenderer>().sharedMaterial.color = Coloring.color;
+            for(int i = 0; i < transform.childCount; i++)
+            {
+                GameObject f = transform.GetChild(0).gameObject;
+                f.GetComponent<MeshRenderer>().sharedMaterial.color = Coloring.color;
+            }
         }
+        
+       
     }
 }

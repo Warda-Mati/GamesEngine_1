@@ -8,6 +8,7 @@ public class PlayerGrav : MonoBehaviour
     // Start is called before the first frame update
     public Planet planet;
     private Transform player;
+    
     void Start()
     {
         GetComponent<Rigidbody>().useGravity = false;
@@ -21,13 +22,14 @@ public class PlayerGrav : MonoBehaviour
        
     }
 
-    void OnTriggerStay(Collider other)
+    void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("planet"))
         {
             planet = other.gameObject.GetComponent<Planet>();
         }
     }
+    
 
     private void FixedUpdate()
     {

@@ -23,8 +23,11 @@ public class Planet : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
-        transform.RotateAround(sun.transform.position, Vector3.up, orbitSpeed * Time.deltaTime);
+        if (landed == false)
+        {
+            transform.RotateAround(sun.transform.position, Vector3.up, orbitSpeed * Time.deltaTime);
+        }
+      
     }
 
     public void Attract(Transform player)
@@ -42,6 +45,14 @@ public class Planet : MonoBehaviour
             GetComponent<Rigidbody>().velocity = Vector3.zero;
             GetComponent<Rigidbody>().angularVelocity = Vector3.zero;
             landed = true;
+        }
+    }
+
+    private void OnCollisionExit(Collision other)
+    {
+        if (other.gameObject.CompareTag("Player"))
+        {
+            landed = false;
         }
     }
 }

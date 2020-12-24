@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ff8bd7d2fbc8f224d9b2fc150d10b0ae, type: 3}
-  m_Name: New Planet Coloring
+  m_Name: Planet 2 Col
   m_EditorClassIdentifier: 
-  color: {r: 0.9150943, g: 0, b: 0.008960031, a: 0}
-  Material: {fileID: 2100000, guid: f71f01cac32e1f74fb73077632dedd7c, type: 2}
+  color: {r: 0, g: 0, b: 0, a: 0}
+  Material: {fileID: 0}

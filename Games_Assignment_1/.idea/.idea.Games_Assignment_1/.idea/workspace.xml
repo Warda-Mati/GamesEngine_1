@@ -19,7 +19,42 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="295e58f6-4c92-4b60-be11-01cf56956681" name="Default Changelist" comment="" />
+    <list default="true" id="295e58f6-4c92-4b60-be11-01cf56956681" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Games_Assignment_1/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Games_Assignment_1/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Games_Assignment_1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Games_Assignment_1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AlienHitBox.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AlienHitBox.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asteroids Pack/Assets/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Black.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Black.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Light Red.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Light Red.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/New Material 1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/New Material 1.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/New Material 2.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/New Material 2.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/New Material 3.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/New Material 3.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/New Material.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/New Material.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Planet 1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Planet 1.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/SpaceShip.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/SpaceShip.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/UniversalRenderPipelineAsset_Renderer.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/UniversalRenderPipelineAsset_Renderer.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/bullet.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/bullet.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Planet  2.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Planet  2.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Planet 3.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Planet 3.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Planet.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Planet.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/SpaceShip.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/SpaceShip.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/bullet 1 1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/bullet 1 1.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AlienSpaceship.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AlienSpaceship.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AsteroidField.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AsteroidField.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MakePlanet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MakePlanet.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/New Planet Coloring.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/New Planet Coloring.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ShootingStar.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ShootingStar.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Spawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Spawner.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/test/Planet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/test/Planet.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/test/PlayerGrav.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/test/PlayerGrav.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/test/ShipMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/test/ShipMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/URPProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/URPProjectSettings.asset" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,17 +64,18 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AlienHitBox.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/RigidNoise.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlanetRings.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/HealthBar.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Spawner.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Orbit.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlanetEditor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/StarRings.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Spawner.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AlienSpaceship.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Shooter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AsteroidRing.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Orbit.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MoveTarget.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/AlienHitBox.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ColorGenerator.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -62,29 +98,32 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/AsteroidRing.cs" />
         <option value="$PROJECT_DIR$/Assets/Asteroids Pack/Assets/Scripts/RandomRotator.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/StarRings.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/test/PlayerGrav.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Orbit.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/test/Planet.cs" />
         <option value="$PROJECT_DIR$/Assets/Prefabs/NewSurfaceShader.shader" />
         <option value="$PROJECT_DIR$/Assets/Materials/NewSurfaceShader.shader" />
         <option value="$PROJECT_DIR$/Assets/Prefabs/PlanetRing.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlanetRings.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MoveTarget.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ShootingStar.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Shooter.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/AlienSpaceship.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Spawner.cs" />
         <option value="$PROJECT_DIR$/Assets/AlienHitBox.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/RigidNoise.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/NoiseOptions.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/NoiseFilter.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/test/ShipMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlanetColoring.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlanetEditor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlanetHeights.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlanetShape.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ColorGenerator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/test/Planet.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/test/PlayerGrav.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AlienSpaceship.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/test/CameraMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/test/ShipMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/HealthBar.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MakePlanet.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AsteroidField.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ShootingStar.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Spawner.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Orbit.cs" />
       </list>
     </option>
   </component>
@@ -146,6 +185,8 @@
       <workItem from="1608638562894" duration="5184000" />
       <workItem from="1608728447584" duration="10412000" />
       <workItem from="1608807354733" duration="9884000" />
+      <workItem from="1608833073542" duration="3050000" />
+      <workItem from="1608841652772" duration="6018000" />
     </task>
     <servers />
   </component>
@@ -170,28 +211,13 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1608835011916">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1608835011916" />
     <state x="458" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606150080462">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="458" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1606150080462" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Scripts/AlienSpaceship.cs</url>
-          <line>63</line>
-          <properties documentPath="C:\Users\verda\Desktop\DT228_Year4\GamesEngine 1\GamesEngine_1\Games_Assignment_1\Assets\Scripts\AlienSpaceship.cs" initialLine="59">
-            <startOffsets>
-              <option value="1886" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1887" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

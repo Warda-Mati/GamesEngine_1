@@ -17,7 +17,7 @@ public class AsteroidField : MonoBehaviour
         {
             Vector3 pos = new Vector3(Random.Range(-areaOfField,areaOfField),Random.Range(-areaOfField,areaOfField),Random.Range(-areaOfField,areaOfField));
             Vector3 finalPos = transform.TransformPoint(pos);
-            GameObject asteroid = GameObject.Instantiate(asteroids[Random.Range(0,3)],pos,Quaternion.identity);
+            GameObject asteroid = GameObject.Instantiate(asteroids[Random.Range(0,3)],finalPos,Quaternion.identity);
         }
     }
 
