@@ -38,3 +38,10 @@ other than the planets,a sun and moon have been created by using smoke textures 
 
 The player has a targeting system and can shoot bullets, shooting bullets have been taught in class, but modifications were made so that it will follow the target, in which the player can move as well
 
+
+# Controls
+
+Move : W,A,S,D
+Move Target : Y (up) , G(left), H(down),J(right)
+Shoot : K
+Land on Planet : P
