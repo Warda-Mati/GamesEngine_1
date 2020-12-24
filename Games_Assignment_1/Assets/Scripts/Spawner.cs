@@ -34,8 +34,11 @@ public class Spawner : MonoBehaviour
         {
             if (alienCounter < maxAliens)
             {
-                GameObject newAlien = Instantiate(aliens, 
-                    new Vector3(Random.Range(-area, area),Random.Range(-area, area),Random.Range(-area, area)), Quaternion.identity);
+                Vector3 pos = new Vector3(Random.Range(-area, area), Random.Range(-area, area),
+                    Random.Range(-area, area));
+                pos = transform.TransformPoint(pos);
+                GameObject newAlien = Instantiate(aliens, pos 
+                    , Quaternion.identity);
                 alienCounter++;
                 newAlien.transform.parent = this.transform;
                 yield return new WaitForSeconds(10);

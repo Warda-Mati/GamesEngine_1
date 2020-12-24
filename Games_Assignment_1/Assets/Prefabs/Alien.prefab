@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 2668788623795759577}
   - component: {fileID: 2668788623795759578}
   - component: {fileID: 2668788623795759579}
-  - component: {fileID: 2668788623795759572}
   - component: {fileID: 2668788623795759573}
   m_Layer: 0
   m_Name: SpaceShip
@@ -28,7 +27,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2668788623795759574}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.01, y: -0.14, z: -0.04}
+  m_LocalPosition: {x: -0.06, y: -0.14, z: -0.07}
   m_LocalScale: {x: 2.5, y: 0.5, z: 2.5}
   m_Children: []
   m_Father: {fileID: 2668788625027530119}
@@ -81,19 +80,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!135 &2668788623795759572
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2668788623795759574}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &2668788623795759573
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -122,7 +108,9 @@ GameObject:
   - component: {fileID: 2668788625027530119}
   - component: {fileID: 2668788625027530116}
   - component: {fileID: 2668788625027530117}
-  - component: {fileID: 2668788625027530118}
+  - component: {fileID: 6366715248196916362}
+  - component: {fileID: 3735711217072168357}
+  - component: {fileID: 5926966949221624409}
   m_Layer: 0
   m_Name: Alien
   m_TagString: Untagged
@@ -138,7 +126,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2668788625027530112}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 374.78, y: -247.43, z: 263.74}
+  m_LocalPosition: {x: 376.05, y: -247.43, z: 263.74}
   m_LocalScale: {x: 5, y: 5, z: 5}
   m_Children:
   - {fileID: 2668788623795759577}
@@ -192,7 +180,35 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!135 &2668788625027530118
+--- !u!54 &6366715248196916362
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2668788625027530112}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &3735711217072168357
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2668788625027530112}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a37d7ac10eebc9543861755471c9902b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!135 &5926966949221624409
 SphereCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -200,8 +216,8 @@ SphereCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2668788625027530112}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 5.5
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Radius: 1.4777253
+  m_Center: {x: -0.34320983, y: 0.27957153, z: 0.35494384}

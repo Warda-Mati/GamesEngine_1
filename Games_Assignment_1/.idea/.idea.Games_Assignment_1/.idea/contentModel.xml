@@ -6,6 +6,7 @@
     <e p="C:\Users\verda\Desktop\DT228_Year4\GamesEngine 1\GamesEngine_1\Games_Assignment_1" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="AlienHitBox.cs" t="Include" />
         <e p="Asteroids Pack" t="Include">
           <e p="Assets" t="Include">
             <e p="Scripts" t="Include">

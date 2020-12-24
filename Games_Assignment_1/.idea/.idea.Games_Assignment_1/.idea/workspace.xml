@@ -38,6 +38,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AsteroidRing.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Orbit.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MoveTarget.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/AlienHitBox.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -59,14 +60,12 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/ShapeSettings.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlanetShape.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AsteroidRing.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/AlienSpaceship.cs" />
         <option value="$PROJECT_DIR$/Assets/Asteroids Pack/Assets/Scripts/RandomRotator.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/StarRings.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/test/PlayerGrav.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Orbit.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/NoiseFilter.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MakePlanet.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Spawner.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/test/Planet.cs" />
         <option value="$PROJECT_DIR$/Assets/Prefabs/NewSurfaceShader.shader" />
         <option value="$PROJECT_DIR$/Assets/Materials/NewSurfaceShader.shader" />
@@ -76,6 +75,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/ShootingStar.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Shooter.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/test/ShipMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/AlienHitBox.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AlienSpaceship.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Spawner.cs" />
       </list>
     </option>
   </component>
@@ -136,6 +138,7 @@
       <workItem from="1608564659969" duration="5895000" />
       <workItem from="1608638562894" duration="5184000" />
       <workItem from="1608728447584" duration="10412000" />
+      <workItem from="1608807354733" duration="1044000" />
     </task>
     <servers />
   </component>
@@ -170,13 +173,13 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Assets/Scripts/AlienSpaceship.cs</url>
-          <line>61</line>
+          <line>63</line>
           <properties documentPath="C:\Users\verda\Desktop\DT228_Year4\GamesEngine 1\GamesEngine_1\Games_Assignment_1\Assets\Scripts\AlienSpaceship.cs" initialLine="59">
             <startOffsets>
-              <option value="1837" />
+              <option value="1886" />
             </startOffsets>
             <endOffsets>
-              <option value="1838" />
+              <option value="1887" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="1" />

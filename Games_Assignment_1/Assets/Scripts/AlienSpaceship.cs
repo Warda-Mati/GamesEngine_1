@@ -1,6 +1,8 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 public class AlienSpaceship : MonoBehaviour
 {
@@ -61,14 +63,22 @@ public class AlienSpaceship : MonoBehaviour
         Debug.Log(currentPos);
     }
 
+   
+
     void MoveSpaceShip(Vector3 pos)
     {
         float step = speed * Time.deltaTime;
-        transform.parent.position = Vector3.MoveTowards(transform.parent.position,pos,step);
-        if (Vector3.Distance(transform.parent.position, pos) < 1)
+        if (transform.parent != null)
         {
-            hasReached = true;
-            TargetPosition();
+            transform.parent.position = Vector3.MoveTowards(transform.parent.position,pos,step);
+            if (Vector3.Distance(transform.parent.position, pos) < 1)
+            {
+                hasReached = true;
+                TargetPosition();
+            }
         }
+      
     }
+
+    
 }
